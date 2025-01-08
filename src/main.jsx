@@ -8,4 +8,9 @@ createRoot(document.getElementById('root')).render(
 
     <App />
   
-)
+);
+
+// Add a class to the root element when the data is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('root').classList.add('loaded');
+  });

@@ -6,5 +6,11 @@
 }
 .card-img-top{
     height: 200px;
+    width: 400px;
 
+}
+.spinner-border{
+    margin-top: 200px;
+    font-size: 300px;
+    
 }

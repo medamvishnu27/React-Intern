@@ -34,11 +34,11 @@ const App = () => {
   };
 
   return (
-    <div className="m-5">
-      <h1 className="text-center mb-4">User  Profiles</h1>
+    <div className="m-5 ">
+      <h1 className="text-center m-3"><strong>User Profiles</strong></h1>
       {loading ? (
         <div className="text-center">
-          <div className="spinner-border text-primary" role="status">
+          <div className="spinner-border text-primary  " role="status">
             <span className="visually-hidden">Loading...</span>
           </div>
         </div>

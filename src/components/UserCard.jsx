@@ -35,8 +35,8 @@ const UserCard = ({ user, onDelete, onEdit, onToggleFavorite }) => {
   };
 
   return (
-    <div className="card  shadow-lg">
-      <img src={avatarUrl} alt={user.username} className="card-img-top" />
+    <div className="card  shadow-lg ">
+      <img src={avatarUrl} alt={user.username} className="card-img-top m-2 "  />
       <div className="card-body">
         {isEditing ? (
           <>
